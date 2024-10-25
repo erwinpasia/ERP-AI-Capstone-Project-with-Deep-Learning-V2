@@ -24,7 +24,8 @@ In the Keras stream, participants will focus on building an image classifier usi
 - **Model Customization:** Modify the ResNet50 architecture by removing the top layers (using include_top=False) and adding custom layers suitable for the specific classification task.
 
 - **Freezing Layers:** Freeze the initial layers of ResNet50 to retain learned features and only train additional layers added for the specific task.
-Training and Fine-Tuning: Train the new layers on your dataset. Optionally, fine-tune some of the deeper layers with a low learning rate to further improve performance.
+  
+- **Training and Fine-Tuning:** Train the new layers on your dataset. Optionally, fine-tune some of the deeper layers with a low learning rate to further improve performance.
 
 - **Evaluation:** Validate the model's performance using metrics such as accuracy, precision, recall, etc.
 
