@@ -4,11 +4,11 @@ The IBM AI Engineering Professional Certificate's Capstone Project focuses on ap
 
 ## **Project Overview**
 
-## **Objective**
+### **Objective**
 
 The capstone project involves building image classifiers using two different pre-trained models: ResNet18 with PyTorch and VGG16 with Keras. Students will compare the performance of these models, including a previous model built with ResNet50, to understand the strengths and weaknesses of each architecture.
 
-## **Deep Learning Methodology**
+### **Deep Learning Methodology**
 
 The project follows a structured approach typical in deep learning tasks:
 
@@ -28,7 +28,7 @@ The project follows a structured approach typical in deep learning tasks:
 
 - **Reporting:** Compile findings into a comprehensive report that discusses model architecture choices, training processes, evaluation metrics, and insights gained from comparing different models.
 
-## **Tools and Techniques**
+### **Tools and Techniques**
 
 - **Programming Frameworks:**
 	- *PyTorch* for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
@@ -38,7 +38,7 @@ The project follows a structured approach typical in deep learning tasks:
 	- Use torchvision for data transformations and loading in PyTorch.
 	- Use keras.preprocessing.image for data augmentation in Keras.
 
-## **Outcome**
+### **Outcome**
 
 By completing this capstone project, students gain hands-on experience with state-of-the-art deep learning models and techniques. They learn how to apply theoretical knowledge to practical problems, enhancing their skills in model tuning and performance evaluation. This project also provides a valuable addition to their professional portfolio, showcasing their ability to handle complex AI engineering tasks.
 
