@@ -26,17 +26,17 @@ The project follows a structured approach typical in deep learning tasks:
 
 	- Evaluate model performance using metrics like accuracy and loss. Compare results between ResNet18, VGG16, and ResNet50 to assess which model performs best under different conditions.
 
-	Reporting: Compile findings into a comprehensive report that discusses model architecture choices, training processes, evaluation metrics, and insights gained from comparing different models.
+- **Reporting:** Compile findings into a comprehensive report that discusses model architecture choices, training processes, evaluation metrics, and insights gained from comparing different models.
 
 ## **Tools and Techniques**
 
 - **Programming Frameworks:**
-		- PyTorch for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
-		- Keras for implementing VGG16, known for its user-friendly API that simplifies neural network creation.
+        - *PyTorch* for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
+	- *Keras* for implementing VGG16, known for its user-friendly API that simplifies neural network creation.
 
 - **Libraries:**
-		- Use torchvision for data transformations and loading in PyTorch.
-		- Use keras.preprocessing.image for data augmentation in Keras.
+	- Use torchvision for data transformations and loading in PyTorch.
+	- Use keras.preprocessing.image for data augmentation in Keras.
 
 ## **Outcome**
 
