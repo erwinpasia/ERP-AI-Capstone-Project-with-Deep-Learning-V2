@@ -1,41 +1,48 @@
 # [IBM AI Engineering Professional Certificate's Capstone Project](https://www.coursera.org/account/accomplishments/verify/7822PTJ9X9KH) - COMPLETED!
-The IBM AI Capstone Project with Deep Learning offers two distinct learning streams: a PyTorch stream and a Keras stream. Each stream focuses on building different types of classifiers using deep learning techniques.
 
-**A. PyTorch Stream: Linear Classifier**
+The IBM AI Engineering Professional Certificate's Capstone Project focuses on applying deep learning techniques to build and evaluate image classifiers using pre-trained models. This project allows students to demonstrate their proficiency in using PyTorch and Keras for real-world applications.
 
-In the PyTorch stream, participants will learn how to build a linear classifier. A linear classifier is a simple yet powerful model used for classifying data into distinct categories by drawing a linear decision boundary. Here's an overview of the process:
+## **Project Overview**
 
-- **Data Preparation:** Load and preprocess the dataset, which typically involves normalizing the data and splitting it into training and testing sets.
+## **Objective**
 
-- **Model Building:** Implement a linear classifier using PyTorch. This involves defining a model class that inherits from torch.nn.Module, initializing weights, and defining the forward pass.
+The capstone project involves building image classifiers using two different pre-trained models: ResNet18 with PyTorch and VGG16 with Keras. Students will compare the performance of these models, including a previous model built with ResNet50, to understand the strengths and weaknesses of each architecture.
 
-- **Training:** Use stochastic gradient descent (SGD) or another optimization algorithm to train the model. The loss function often used is cross-entropy loss for classification tasks.
+## **Deep Learning Methodology**
 
-- **Evaluation:** Test the model on unseen data to evaluate its performance, usually by calculating metrics such as accuracy.
+The project follows a structured approach typical in deep learning tasks:
 
-Linear classifiers are foundational in machine learning and serve as building blocks for more complex models.
+- **Data Preparation:** Load and preprocess image data, ensuring it is suitable for training the models. This involves resizing, normalizing, and augmenting images to improve model robustness.
 
-**B. Keras Stream: Image Classifier with ResNet50**
+- **Model Selection and Implementation:**
 
-In the Keras stream, participants will focus on building an image classifier using the ResNet50 pre-trained model. ResNet50 is a deep convolutional neural network with 50 layers, known for its ability to handle complex image classification tasks using residual learning:
+	- **ResNet18 with PyTorch:** Utilize the ResNet18 architecture, which includes residual connections to mitigate the vanishing gradient problem, allowing for 	deeper networks. Fine-tune the model by freezing initial layers and training only the final layers on the new dataset.
+	
+	- **VGG16 with Keras: Implement VGG16**, known for its simplicity and effectiveness in image classification tasks. The model consists of 16 layers and is pre-trained on ImageNet. Fine-tune by adjusting the final dense layers to match the specific classification task.
 
-- **Transfer Learning:** Leverage the pre-trained ResNet50 model on ImageNet data. This involves using existing weights from a large dataset to improve performance on a smaller dataset.
+- **Training and Evaluation:**
 
-- **Model Customization:** Modify the ResNet50 architecture by removing the top layers (using include_top=False) and adding custom layers suitable for the specific classification task.
+	- Train both models on a chosen dataset, using techniques such as transfer learning to leverage pre-trained weights.
 
-- **Freezing Layers:** Freeze the initial layers of ResNet50 to retain learned features and only train additional layers added for the specific task.
-  
-- **Training and Fine-Tuning:** Train the new layers on your dataset. Optionally, fine-tune some of the deeper layers with a low learning rate to further improve performance.
+	- Evaluate model performance using metrics like accuracy and loss. Compare results between ResNet18, VGG16, and ResNet50 to assess which model performs best under different conditions.
 
-- **Evaluation:** Validate the model's performance using metrics such as accuracy, precision, recall, etc.
+	Reporting: Compile findings into a comprehensive report that discusses model architecture choices, training processes, evaluation metrics, and insights gained from comparing different models.
 
-This approach allows participants to harness powerful pre-trained models without needing extensive computational resources or large datasets.
+## **Tools and Techniques**
 
-Both streams provide practical experience in developing deep learning models and applying them to real-world problems, enhancing participants' skills in data pre-processing, model building, training, evaluation, and reporting results.
+- **Programming Frameworks:**
+		- PyTorch for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
+		- Keras for implementing VGG16, known for its user-friendly API that simplifies neural network creation.
 
-In this course there will be not much new learning, instead students will "focus on hands-on work" to demonstrate and apply what they have learnt in the previous courses.
+- **Libraries:**
+		- Use torchvision for data transformations and loading in PyTorch.
+		- Use keras.preprocessing.image for data augmentation in Keras.
 
-By successfully completing this Capstone, students will add projects to their Machine Learning Engineering and AI Engineering portfolios to showcase to employers.
+## **Outcome**
+
+By completing this capstone project, students gain hands-on experience with state-of-the-art deep learning models and techniques. They learn how to apply theoretical knowledge to practical problems, enhancing their skills in model tuning and performance evaluation. This project also provides a valuable addition to their professional portfolio, showcasing their ability to handle complex AI engineering tasks.
+
+This capstone emphasizes critical thinking in model selection and effective communication of technical results to stakeholders, preparing students for advanced roles in AI and machine learning fields.
 
 ## [Certificate Of Competency:](https://www.coursera.org/account/accomplishments/verify/7822PTJ9X9KH)
 
