@@ -31,7 +31,7 @@ The project follows a structured approach typical in deep learning tasks:
 ## **Tools and Techniques**
 
 - **Programming Frameworks:**
-        - *PyTorch* for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
+	- *PyTorch* for implementing ResNet18, leveraging its dynamic computation graph capabilities for flexibility in model building.
 	- *Keras* for implementing VGG16, known for its user-friendly API that simplifies neural network creation.
 
 - **Libraries:**
