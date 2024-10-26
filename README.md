@@ -18,13 +18,13 @@ The project follows a structured approach typical in deep learning tasks:
 
 	- **ResNet18 with PyTorch:** Utilize the ResNet18 architecture, which includes residual connections to mitigate the vanishing gradient problem, allowing for 	deeper networks. Fine-tune the model by freezing initial layers and training only the final layers on the new dataset.
 	
-	- **VGG16 with Keras: Implement VGG16**, known for its simplicity and effectiveness in image classification tasks. The model consists of 16 layers and is pre-trained on ImageNet. Fine-tune by adjusting the final dense layers to match the specific classification task.
+	- **VGG16 with Keras:** Implement VGG16, known for its simplicity and effectiveness in image classification tasks. The model consists of 16 layers and is pre-trained on ImageNet. Fine-tune by adjusting the final dense layers to match the specific classification task.
 
 - **Training and Evaluation:**
 
 	- Train both models on a chosen dataset, using techniques such as transfer learning to leverage pre-trained weights.
 
-	- Evaluate model performance using metrics like accuracy and loss. Compare results between ResNet18, VGG16, and ResNet50 to assess which model performs best under different conditions.
+	- Evaluate model performance using metrics like accuracy and loss. **Compare results between ResNet18, VGG16, and ResNet50 to assess which model performs best under different conditions.**
 
 - **Reporting:** Compile findings into a comprehensive report that discusses model architecture choices, training processes, evaluation metrics, and insights gained from comparing different models.
 
